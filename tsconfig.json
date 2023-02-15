@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",                                
+    "module": "commonjs",                           
+    "types": ["node", "webdriverio/async", "@wdio/mocha-framework", "expect-webdriverio"],
+    "strict": true,                              
+    "esModuleInterop": true,                       
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true,  
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true, 
+  }
+}
